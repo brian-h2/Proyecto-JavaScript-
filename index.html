@@ -4,10 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap-->
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/pruebacss.css">
+
     <title>Document</title>
     
 </head>
 <body>
-    
+
+    <!--MENU DE NAVEGACION-->
+       <nav class="nav-index">
+           <img src="img/nav/logo.png" alt="logode basket">
+           <ul>
+               <li><a>Home</a></li>
+               <li><a>Productos</a></li>
+               <li><a>Contacto</a></li>
+               <li><a>Sobre Nosotros</a></li>
+               <li><a>Tienda</a></li>
+
+           </ul>
+       </nav>
+
+       <header>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/galeria-header/header.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/galeria-header/header-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/galeria-header/header-3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+       </header>
+
+       <main> 
+            <!--Tarjetas-->
+            <div class="main-colecciones">
+                <div class="title-main">
+                    <h1>Conoce nuestras colecciones</h1>
+                </div>
+                <div class="tarjetas-main">
+                    <div class="tarjeta-1">
+                        <img src="img/main-tarjetas/tarjeta-1.jpg">
+                        <h5>1.0 LIFESTYLE</h5>
+                    </div>
+                    <div class="tarjeta-2">
+                        <img src="img/main-tarjetas/tarjeta-2.jpg">
+                        <h5>2.0 PLAYGROUND</h5>
+                    </div>
+                    <div class="tarjeta-3">
+                        <img src="img/main-tarjetas/tarjeta-3.jpg">
+                        <h5>3.0 GAMETIME</h5>
+                    </div>
+                </div>
+            </div>
+            <!--Marcas--> 
+            <div class="background">
+                <div class="marcas">
+                    <div class="title-marcas">
+                        <h2>Nuestras marcas</h2>
+                    </div>
+                    <div class="marcas-img">
+                        <img src="img/main-marcas/spalding1.png">
+                        <img src="img/main-marcas/peak.png">
+                        <img src="img/main-marcas/nba.png">
+                    </div>
+                </div>
+                <!--Productos destacados-->
+                <div class="productos">
+                    <div class="titulo-productos">
+                        <h2>Productos destacados</h2>
+                    </div>
+                    <div class="productos-img">
+                        <div class="card-one">
+                            <img src="img/main-productos/imagen-1.jpg">
+                            <h5>Productos spalding</h5>
+                        </div>
+                        <div class="card-two">
+                            <img src="img/main-productos/imagen-2.jpg">
+                            <h5>Camisetas de las mejores marcas</h5>
+                        </div>
+                        <div class="card-three">
+                            <img src="img/main-productos/imagen-3.jpg">
+                            <h5>Camperas Mitchell and Ness</h5>
+                        </div>
+                        <div class="card-four">
+                            <img src="img/main-productos/imagen-4.jpg">
+                            <h5>Kicks</h5>
+                        </div>
+                    </div>
+                </div>
+
+            
+       </main>
+
+
+    <!--Script de bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>
