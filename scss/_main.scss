@@ -91,6 +91,7 @@
         justify-content: space-evenly;
         background-color: rgb(243, 243, 243);
         margin-top: 60px;
+        height: 200px;
         .title-marcas {
             h2{
                 font-size: 38px;
@@ -100,11 +101,23 @@
         }
         .marcas-img {
             img{
-                width: 200px;
+                width: 130px;
+                height: 80.5px;
                 margin: 30px;
             }
+            .img-1 {
+                margin-right: 70px;
+            }
+            .img-2 {
+                width: 150px;
+                height: 100px;
+                margin-left: 70px;
+                margin-right: 70px;
+            }
+            .img-3 {
+                margin-left: 70px;
+            }
         }
-
     }
     /*Productos*/
     .productos {
